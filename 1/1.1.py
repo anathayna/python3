@@ -29,5 +29,6 @@ mes = 10
 ano = 2015
 print(dia, mes, ano, sep="/")
 
+#tipagem float decimal x linguagem dinamica 
 decimal = 3.1
 print(type(decimal))
