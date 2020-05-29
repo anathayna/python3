@@ -11,7 +11,7 @@ import sys
 import pygame
 import random
 from threading import Thread
-import PredadorPresa
+import predadorpresa
 
 # Parâmetros do tamanho da simulação (cada célula em 5 pixels)
 random.seed(None)
@@ -28,7 +28,7 @@ cores = [preto, vermelho, azul]
 
 pygame.init()
 tela = pygame.display.set_mode(tamanho)
-pp = PredadorPresa.Mapa()
+pp = predadorpresa.Mapa()
 
 # Pinta um quadrado de 3x3 pixels para cada nó
 #  como cada nó tem 5 pixels, 2 pixels ficam para a borda da célula
