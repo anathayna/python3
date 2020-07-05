@@ -1,2 +1,2 @@
-# python3
+# python
 :snake: :snake: :snake:
