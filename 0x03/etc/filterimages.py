@@ -10,8 +10,8 @@ def contains_text(image_path):
     except UnidentifiedImageError:
         return False
 
-image_dir = '/Users/ana.tc.franca/Downloads/img_resized'
-output_dir = '/Users/ana.tc.franca/Downloads/filterimages'
+image_dir = '/Users/user/dir'
+output_dir = '/Users/user/output'
 
 os.makedirs(output_dir, exist_ok=True)
 
